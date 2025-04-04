@@ -1,11 +1,12 @@
 # Practica servidor web
 ## 1. Titulo
-Titulo desciptivo a la practica realizada
+Proyecto Angular con linux
 ## 2. Tiempo de duración
-Tiempo en minutos usados para desarrollar la práctica 
+150 minutos de sufrimiento
 ## 3. Fundamentos:
 
 Descripción de los conceptos para poder entender la practica, de al menos una *300* palabras, uso obligatorio de imágenes que ayuden la descripción de la teoría.
+La siguiente practica se trato instalar la estructura de un proyecto en angular por medio de comandos de Linux, en este caso use Ubuntu desde la aplicaacion propia basandome en algunos conceptos claves que me ayudo a crear este eproyecto 
 
 
 ## 4. Conocimientos previos.
