@@ -1,2 +1,2 @@
-# Tendencias-Tecnol-gicas-FM
+# Tendencias-Tecnológicas-FM
 Portafolio
