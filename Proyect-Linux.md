@@ -4,7 +4,7 @@
 **Proyecto Angular con Linux**
 
 ## 2. Tiempo de duración  
-**150 minutos de sufrimiento técnico y aprendizaje 💻🔥**
+**150 minutos**
 
 ## 3. Fundamentos
 
@@ -23,7 +23,6 @@ El uso de imágenes en esta parte del informe ayudará a comprender mejor la est
 
 > **Figura 1-1.** Estructura básica de un proyecto Angular.
  
-
 ---
 > **Figura 1-2.** Comandos de instalación y ejecución desde Ubuntu.  
 
