@@ -3,12 +3,8 @@
 ## 1. Título  
 **Proyecto Angular con Linux**
 
----
-
 ## 2. Tiempo de duración  
 **150 minutos de sufrimiento técnico y aprendizaje 💻🔥**
-
----
 
 ## 3. Fundamentos
 
@@ -25,11 +21,12 @@ Durante la práctica se aprendió a:
 
 El uso de imágenes en esta parte del informe ayudará a comprender mejor la estructura de carpetas de un proyecto Angular, la interfaz de la terminal y el resultado final en el navegador.
 
-> **Figura 1-1.** Estructura básica de un proyecto Angular.  
-> ![Estructura Angular](https://angular.io/generated/images/marketing/conceptual-architecture.png)
+> **Figura 1-1.** Estructura básica de un proyecto Angular.
+ 
 
+---
 > **Figura 1-2.** Comandos de instalación y ejecución desde Ubuntu.  
-> ![Terminal Ubuntu](https://i.imgur.com/5uRJ7Ux.png)
+
 
 ---
 
@@ -40,10 +37,9 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 - Comandos básicos de Linux.
 - Navegación de archivos desde terminal.
 - Uso de navegadores web.
-- Fundamentos de desarrollo frontend (HTML, CSS, JavaScript/TypeScript).
 - Instalación de herramientas desde consola (npm, Angular CLI).
+- Instalacion de paquetes de manera manual.
 
----
 
 ## 5. Objetivos a alcanzar
 
@@ -53,7 +49,6 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 - Manipular archivos de configuración dentro de un proyecto Angular.
 - Usar herramientas como Docker para despliegue futuro (en caso de extender la práctica).
 
----
 
 ## 6. Equipo necesario
 
@@ -71,10 +66,8 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 ## 7. Material de apoyo
 
 - Documentación oficial de Angular: [https://angular.io/docs](https://angular.io/docs)
-- Guía de la asignatura.
+- Documentacion de comandos de wls
 - Cheatsheet de comandos de Linux.
-- StackOverflow y foros de programación.
-- Documentación oficial de Docker (opcional).
 
 ---
 
@@ -84,3 +77,42 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 ```bash
 sudo apt update
 sudo apt install nodejs npm
+```
+
+
+**Paso 2:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+
+**Paso 3:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+**Paso 4:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+**Paso 5:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+**Paso 6:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+**Paso 7:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+**Paso 8:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
