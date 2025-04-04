@@ -22,7 +22,7 @@ Durante la práctica se aprendió a:
 El uso de imágenes en esta parte del informe ayudará a comprender mejor la estructura de carpetas de un proyecto Angular, la interfaz de la terminal y el resultado final en el navegador.
 
 > **Figura 1-1.** Estructura básica de un proyecto Angular.
- <img src="Capturas/Captura de pantalla 2024-10-15 220354.png" alt="drawing" width="350"/>
+ <img src="photos/1_1HXCJCOpzKdmQI33ZrEIlg.png" alt="drawing" width="350"/>
 ---
 > **Figura 1-2.** Comandos de instalación y ejecución desde Ubuntu.  
 
