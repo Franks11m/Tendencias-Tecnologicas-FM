@@ -23,6 +23,9 @@ El uso de imágenes en esta parte del informe ayudará a comprender mejor la est
 
 > **Figura 1-1.** Logotipo de Angular.
  <img src="photos/1_1HXCJCOpzKdmQI33ZrEIlg.png" alt="drawing" width="500"/>
+
+> **Figura 1-2.** Logotipo de Linux.
+ <img src="photos/Figura-116-Logotipo-de-Linux.png" alt="drawing" width="500"/>
  
 ## 4. Conocimientos previos
 
@@ -51,7 +54,6 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 - Angular CLI (última versión estable).
 - Navegador actualizado (Chrome, Firefox, etc.).
 
----
 
 ## 7. Material de apoyo
 
@@ -59,9 +61,6 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 - [Documentación de WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 - Guía de comandos básicos de Linux.
 - Guía video colocado en la plataforma virtual del Instituto https://drive.google.com/file/d/1OitqZ02pX7VHaVx3qH9eF31mQent65rk/view
-- Cheatsheet de comandos de Linux.
-
----
 
 ## 8. Procedimiento
 
@@ -69,7 +68,6 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 ```bash
 wsl --install -d Ubuntu
 ```
-
 > **Figura 8-1-1.** Instalación de Ubuntu.
  <img src="photos/Captura de pantalla 2025-04-03 160647.png" alt="drawing" width="600"/>
  
@@ -82,10 +80,10 @@ wsl --install -d Ubuntu
 sudo apt update
 sudo apt install nodejs npm
 ```
-> **Figura 8-2-1.** Estructura básica de un proyecto Angular.
+> **Figura 8-2-1.** Instalacion de Node.js.
  <img src="photos/Captura de pantalla 2025-04-04 150416.png" alt="drawing" width="600"/>
  
-> **Figura 8-2-2.** Estructura básica de un proyecto Angular.
+> **Figura 8-2-2.** Actualizaciones por ejecutarse.
  <img src="photos/Captura de pantalla 2025-04-04 150430.png" alt="drawing" width="600"/>
 
 
@@ -101,6 +99,7 @@ npm install -g @angular/cli
  
 > **Figura 8-3-3.** Obtenemos Angular CLI ultima versión.
  <img src="photos/Captura de pantalla 2025-04-04 150822.png" alt="drawing" width="600"/>
+
  
 **Paso 4:** Crear un nuevo proyecto Angular.
 ```bash
@@ -116,6 +115,7 @@ ng new "nombre-del-proyecto" en mi caso lo llame "y"
 > **Figura 8-3-3.** Instalacion de recursos nesesarios del proyecto.
  <img src="photos/Captura de pantalla 2025-04-04 151119.png" alt="drawing" width="600"/>
 
+
 **Paso 5:** Iniciar el servidor de desarrollo.  
 ```bash
 ng serve
@@ -123,5 +123,32 @@ ng serve
 > **Figura 8-5-1.** Instalacion de recursos nesesarios del proyecto.
  <img src="photos/Captura de pantalla 2025-04-04 153237.png" alt="drawing" width="800"/>
 
+
 **Paso 6:**  Abrir el navegador y acceder a http://localhost:4200 para ver la app funcionando. 
 
+## 9. Resultados esperados
+
+
+Al finalizar la práctica, se lograron los siguientes resultados:
+
+- **Configuración exitosa del entorno de desarrollo** en Linux utilizando Ubuntu, demostrando que es posible trabajar con Angular desde la terminal sin necesidad de interfaces gráficas.
+
+- **Instalación y configuración de Angular CLI** mediante `npm`, lo cual permitió crear y gestionar proyectos Angular fácilmente.
+
+- **Creación de un nuevo proyecto Angular funcional**, con la estructura básica correctamente generada y sin errores en la instalación de dependencias.
+
+- **Ejecución del servidor local de Angular**, confirmando que el proyecto podía ser servido correctamente en el navegador a través de `http://localhost:4200`.
+
+- **Verificación visual del funcionamiento del proyecto**, mostrando la pantalla de bienvenida de Angular en el navegador.
+
+- **Comprensión del flujo de trabajo básico en Angular**, desde la instalación hasta la visualización del proyecto, reforzando conocimientos sobre desarrollo frontend y uso de herramientas modernas.
+
+- **Familiarización con la terminal de Linux**, permitiendo  ganar soltura en la ejecución de comandos, manejo de errores comunes (como `ENOENT` o permisos) y navegación de directorios.
+
+  ## 🔊 Audio Explicativo del Proyecto Angular en WSL2
+https://drive.google.com/file/d/1y2kyywfjaN6ru3qtJQYwVREdYDVgnGw7/view?usp=sharing
+
+## 10. Bibliografía
+
+- Angular Developers. (s.f.). *Angular Documentation*. Recuperado de [https://angular.io/docs](https://angular.io/docs)
+- Microsoft. (s.f.). *Windows Subsystem for Linux Documentation*. Recuperado de [https://learn.microsoft.com/en-us/windows/wsl/](https://learn.microsoft.com/en-us/windows/wsl/)
