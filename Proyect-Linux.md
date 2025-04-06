@@ -20,10 +20,10 @@ Durante la práctica se aprendió a:
 - Solucionar errores comunes como problemas con permisos (`sudo`), falta de `package.json`, o errores en la instalación de dependencias.
 
 El uso de imágenes en esta parte del informe ayudará a comprender mejor la estructura de carpetas de un proyecto Angular, la interfaz de la terminal y el resultado final en el navegador.
+
 > **Figura 1-1.** Logotipo de Angular.
  <img src="photos/1_1HXCJCOpzKdmQI33ZrEIlg.png" alt="drawing" width="500"/>
-
-
+ 
 ## 4. Conocimientos previos
 
 Para desarrollar correctamente esta práctica, se requiere que el estudiante tenga conocimiento de:
