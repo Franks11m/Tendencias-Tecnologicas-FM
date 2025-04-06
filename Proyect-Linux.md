@@ -1,4 +1,4 @@
-# Práctica: Servidor Web
+# Práctica: Instalación y configuración de un proyecto Angular con comandos Linux
 
 ## 1. Título  
 **Proyecto Angular con Linux**
@@ -20,14 +20,9 @@ Durante la práctica se aprendió a:
 - Solucionar errores comunes como problemas con permisos (`sudo`), falta de `package.json`, o errores en la instalación de dependencias.
 
 El uso de imágenes en esta parte del informe ayudará a comprender mejor la estructura de carpetas de un proyecto Angular, la interfaz de la terminal y el resultado final en el navegador.
+> **Figura 1-1.** Logotipo de Angular.
+ <img src="photos/1_1HXCJCOpzKdmQI33ZrEIlg.png" alt="drawing" width="500"/>
 
-> **Figura 1-1.** Estructura básica de un proyecto Angular.
- <img src="photos/1_1HXCJCOpzKdmQI33ZrEIlg.png" alt="drawing" width="350"/>
----
-> **Figura 1-2.** Comandos de instalación y ejecución desde Ubuntu.  
-
-
----
 
 ## 4. Conocimientos previos
 
@@ -42,11 +37,9 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 
 ## 5. Objetivos a alcanzar
 
-- Implementar contenedores web utilizando Angular.
 - Configurar un entorno de desarrollo web sobre Linux.
 - Ejecutar y comprobar un servidor Angular desde terminal.
 - Manipular archivos de configuración dentro de un proyecto Angular.
-- Usar herramientas como Docker para despliegue futuro (en caso de extender la práctica).
 
 
 ## 6. Equipo necesario
@@ -54,8 +47,6 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 - Computador con sistema operativo Windows, Linux o macOS.
 - Ubuntu instalado (en máquina real, virtual o WSL).
 - Terminal Bash.
-- Cuenta en DockerHub o Docker Play (opcional para despliegue).
-- Docker v20.10 o superior (opcional).
 - Node.js v18 o superior.
 - Angular CLI (última versión estable).
 - Navegador actualizado (Chrome, Firefox, etc.).
@@ -64,19 +55,26 @@ Para desarrollar correctamente esta práctica, se requiere que el estudiante ten
 
 ## 7. Material de apoyo
 
-- Documentación oficial de Angular: [https://angular.io/docs](https://angular.io/docs)
-- Documentacion de comandos de wls
+- [Documentación de Angular](https://angular.io/)
+- [Documentación de WSL](https://learn.microsoft.com/en-us/windows/wsl/)
+- Guía de comandos básicos de Linux.
+- Guía video colocado en la plataforma virtual del Instituto https://drive.google.com/file/d/1OitqZ02pX7VHaVx3qH9eF31mQent65rk/view
 - Cheatsheet de comandos de Linux.
 
 ---
 
 ## 8. Procedimiento
 
-**Paso 1:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+**Paso 1:** Instalar WSL y Ubuntu dentro del terminal de PowerShell
 ```bash
-sudo apt update
-sudo apt install nodejs npm
+wsl --install -d Ubuntu
 ```
+
+> **Figura 8-1-1.** Instalación de Ubuntu.
+ <img src="photos/Captura de pantalla 2025-04-03 160647.png" alt="drawing" width="600"/>
+ 
+> **Figura 8-1-2.** Instalación wsl.
+ <img src="photos/Captura de pantalla 2025-04-04 155905.png" alt="drawing" width="600"/>
 
 
 **Paso 2:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
@@ -84,34 +82,46 @@ sudo apt install nodejs npm
 sudo apt update
 sudo apt install nodejs npm
 ```
+> **Figura 8-2-1.** Estructura básica de un proyecto Angular.
+ <img src="photos/Captura de pantalla 2025-04-04 150416.png" alt="drawing" width="600"/>
+ 
+> **Figura 8-2-2.** Estructura básica de un proyecto Angular.
+ <img src="photos/Captura de pantalla 2025-04-04 150430.png" alt="drawing" width="600"/>
 
-**Paso 3:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+
+**Paso 3:** Instalar Angular CLI.
 ```bash
-sudo apt update
-sudo apt install nodejs npm
+npm install -g @angular/cli
 ```
-**Paso 4:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+> **Figura 8-3-1.** Instalar Angular CLI globalmente..
+ <img src="photos/Captura de pantalla 2025-04-04 150632.png" alt="drawing" width="600"/>
+ 
+> **Figura 8-3-2.** Se cargan los recursos nesesarios.
+ <img src="photos/Captura de pantalla 2025-04-04 150702.png" alt="drawing" width="600"/>
+ 
+> **Figura 8-3-3.** Obtenemos Angular CLI ultima versión.
+ <img src="photos/Captura de pantalla 2025-04-04 150822.png" alt="drawing" width="600"/>
+ 
+**Paso 4:** Crear un nuevo proyecto Angular.
 ```bash
-sudo apt update
-sudo apt install nodejs npm
+mkdir linux-franks
+ng new "nombre-del-proyecto" en mi caso lo llame "y"
 ```
-**Paso 5:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
+> **Figura 8-3-1.** Creamos carpeta de proyectos.
+ <img src="photos/Captura de pantalla 2025-04-04 151005.png" alt="drawing" width="600"/>
+ 
+> **Figura 8-3-2.** Creamos un proyecto Angular dentro de ese directorio.
+ <img src="photos/Captura de pantalla 2025-04-04 151025.png" alt="drawing" width="600"/>
+ 
+> **Figura 8-3-3.** Instalacion de recursos nesesarios del proyecto.
+ <img src="photos/Captura de pantalla 2025-04-04 151119.png" alt="drawing" width="600"/>
+
+**Paso 5:** Iniciar el servidor de desarrollo.  
 ```bash
-sudo apt update
-sudo apt install nodejs npm
+ng serve
 ```
-**Paso 6:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
-```bash
-sudo apt update
-sudo apt install nodejs npm
-```
-**Paso 7:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
-```bash
-sudo apt update
-sudo apt install nodejs npm
-```
-**Paso 8:** Abrir Ubuntu e instalar Node.js y npm si no están instalados.  
-```bash
-sudo apt update
-sudo apt install nodejs npm
-```
+> **Figura 8-5-1.** Instalacion de recursos nesesarios del proyecto.
+ <img src="photos/Captura de pantalla 2025-04-04 153237.png" alt="drawing" width="800"/>
+
+**Paso 6:**  Abrir el navegador y acceder a http://localhost:4200 para ver la app funcionando. 
+
