@@ -148,7 +148,7 @@ Al finalizar la práctica, se lograron los siguientes resultados:
 > **Figura 9-1.** Resultado de practica.
  <img src="photos/Captura de pantalla 2025-04-06 181905.png" alt="drawing" width="600"/>
 
-  ## 🔊 Audio Explicativo del Proyecto Angular en WSL2
+  ## 🔊 Audio Explicativo de la practica.
 https://drive.google.com/file/d/1xNT2Qkx8xS4YYcOW_1rXk8FEmomSqs9i/view?usp=sharing
 
 ## 10. Bibliografía
